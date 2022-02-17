@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/', (req, res) => {
     res.send('Hello World!');
-    process.exit(1)
+    process.exit(1);
 });
 
 app.listen(8080, () => {
@@ -22,3 +22,5 @@ class A {
         console.log('Hello World!');
     }
 }
+
+// const foo_bar = () => 'hello world!';

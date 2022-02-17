@@ -4,3 +4,8 @@
 
 > sudo npm i -g eslint
 > eslint --init
+
+================================================================
+> npm install husky --save-dev
+> npm run prepare
+> npx husky add .husky/pre-commit "npm --no-git-tag-version version patch && git add package.json"
