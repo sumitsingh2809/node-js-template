@@ -9,3 +9,9 @@
 > npm install husky --save-dev
 > npm run prepare
 > npx husky add .husky/pre-commit "npm --no-git-tag-version version patch && git add package.json"
+
+
+================================================================
+> sudo npm install -g commitizen
+> commitizen init cz-conventional-changelog --save-dev --save-exact
+> git cz
