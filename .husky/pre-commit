@@ -2,5 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 # npm run lint:fix
-npm run lint:fix && npm --no-git-tag-version version patch && git add package.json
+npm run lint:fix && npm --no-git-tag-version version patch && git add .
 # exit 1
